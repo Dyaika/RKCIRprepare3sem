@@ -1,0 +1,12 @@
+div{
+    width: 300px;
+    height: 300px;
+    clip-path: polygon(
+    10px 100px,
+    30px 23px,
+    200px 120px,
+
+    500px 520px
+    );
+    background: linear-gradient(red, blue);
+}

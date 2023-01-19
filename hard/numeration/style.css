@@ -1,0 +1,7 @@
+body{
+    counter-reset: ab;
+}
+div::before{
+    counter-increment: ab;
+    content: "Tag " counter(ab) ": ";
+}
